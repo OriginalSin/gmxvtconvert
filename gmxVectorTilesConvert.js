@@ -50,6 +50,7 @@ json.values.forEach(function(it) {
 	}
 	arr.push(props);
 	var geo = it[len];
+	points.push(0);		// при 0 - далее следует x, y точки
 	points.push(Math.round(100 * geo.coordinates[0]));
 	points.push(Math.round(100 * geo.coordinates[1]));
 })
