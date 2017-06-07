@@ -1,0 +1,16 @@
+{
+  "name": "gmxvtconvert",
+  "version": "1.0.0",
+  "description": "Convert Geomixer vector tiles",
+  "main": "gmxVectorTilesConvert.js",
+  "dependencies": {
+    "node-fetch": "^1.7.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
